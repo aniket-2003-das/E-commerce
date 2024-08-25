@@ -1,0 +1,89 @@
+:root {
+ --mainBlue:#2a2a72;
+ --lightBlue:#009ffd;
+ --mainWhite:#f3f3f3;
+ --mainDark:#232528;
+ --mainYellow:#ffa400;
+}
+.bg-slate-900{
+  background-color: #1F2937;
+}
+.bg-slate-800{
+  background-color: #2D3748;
+}
+.themes{
+  font-size:x-large;
+}
+.cardbg{
+  background-color: #2D3748;
+}
+.paddinglr{
+  width: 100%;
+}
+.h-full{
+  height: 100vh;
+}
+.hover:hover{
+  color: #009ffd;
+}
+.menubar{
+  border:#979393 1px solid;
+  padding-left: 3px; 
+  padding-right: 3px;
+  border-radius: 6px;
+  font-size: x-large;
+}
+.bg-slate-200{
+  background-color: #b1bac4;
+}
+.resmenu{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: flex-start;
+}
+.w-100{
+  width: 100%;
+}
+.w-50{
+  width: 50%;
+}
+.menu{
+  display: flex;
+  justify-content: flex-end;
+}
+.mainmenu{
+  margin-left: 20px;
+}
+body{
+  font-family:"Anton", sans-serif !important;
+  color:var(--mainDark) !important;
+}
+.text-title{
+  font-family: 'Anton', cursive;
+  letter-spacing:0.3rem;
+  text-transform: uppercase; 
+}
+.text-blue{
+  color:var(--mainBlue);
+}
+.text-bright{
+  color:var(--lightBlue);
+}
+.btn-black{
+  background:transparent;
+  text-transform:capitalize;
+  font-size:0.8rem;
+  color:var(--mainDark);
+  border-radius: 0;
+  border:0.1rem solid var(--mainDark);
+}
+.btn-black:hover{
+  background:var(--mainDark) !important;
+  color:var(--mainWhite) !important;
+}
+.cart-icon{
+  cursor:pointer;
+  font-size:1.2rem;
+  color:var(--mainYellow);
+}
